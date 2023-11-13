@@ -47,14 +47,63 @@
 
 .searchbar-container {
   /* background-color: red; */
-  width: 22rem;
+  width: 25rem;
   height: 3.5rem;
 
   border: solid rgba(0, 0, 0, 0.2) 0.5px;
   border-radius: 100px;
   box-shadow: 0px 3px 8px 0.5px rgba(0, 0, 255, .1);
-  
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }
+
+
+
+
+.searchbar-container:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 8px 2px rgba(0, 0, 255, .1);
+}
+
+.searchbar-item {
+  font-weight: 400;
+}
+
+.searchbar-item:nth-child(1) {
+  margin-left: 10px;
+}
+
+.searchbar-item:nth-child(2),
+searchbar-item:nth-child(3)
+ {
+  font-weight: 300;
+  }
+
+.searchbar-item:nth-child(5) {
+  color: gray 
+}
+
+.searchbar-icon {
+  background-color: red;
+  border-radius: 300px;
+  height: 30px;
+  width: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar-icon-actual {
+  height: 15px;
+  width: 15px;
+  fill: whitesmoke;
+}
+
+
 
 .profile {
   background-color: darkorange;
