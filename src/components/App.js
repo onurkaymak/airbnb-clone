@@ -1,7 +1,14 @@
+import Navbar from "./Navbar";
+import "./App.css";
+import RentalList from "./RentalList";
+import Footer from "./Footer";
+
 const App = () => {
   return (
-    <div >
-      <h1>IT WORKS!</h1>
+    <div className="container-main">
+      <Navbar />
+      <RentalList />
+      <Footer />
     </div>
   );
 }
