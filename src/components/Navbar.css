@@ -1,5 +1,39 @@
 .navbar {
-  background-color: green;
+  /* background-color: green; */
   width: 100%;
-  height: 10%;
+  height: 20%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-first {
+  background-color: yellow;
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-second {
+  background-color:blueviolet;
+  width: 100%;
+  height: 50%;
+}
+
+.logo {
+  background-color: red;
+  /* width: 10%; */
+}
+
+.searchbar {
+  background-color: aquamarine;
+  /* width: 65%; */
+}
+
+.profile {
+  background-color: darkorange;
+  /* width: 25%; */
 }
