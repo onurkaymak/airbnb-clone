@@ -4,11 +4,17 @@ import logo from "./../img/airbnblogo.png";
 const Navbar = () => {
   return (
     <div className="navbar">
+
       <div className="navbar-first">
         <div className="logo">
           <img className="img" src={logo} alt="logo" />
+
         </div>
-        <div className="searchbar">Searchbar</div>
+
+        <div className="searchbar">
+          <div className="searchbar-container"></div>
+        </div>
+
         <div className="profile">Profile</div>
       </div>
       <div className="navbar-second">Second</div>
