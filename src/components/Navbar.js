@@ -9,7 +9,6 @@ const Navbar = () => {
       <div className="navbar-first">
         <div className="logo">
           <img className="img" src={logo} alt="logo" />
-
         </div>
 
         <div className="searchbar">
@@ -32,10 +31,35 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="profile">Profile</div>
-      </div>
-      <div className="navbar-second">Second</div>
+        <div className="profile">
+          <div className="profile-item">Airbnb your home</div>
 
+          <div className="profile-icon">
+            <svg className="profile-icon-actual">
+              <use href={sprite + "#icon-sphere"}></use>
+            </svg>
+          </div>
+
+          <div className="profile-item">
+            <svg className="profile-icon-actual">
+              <use href={sprite + "#icon-menu"}></use>
+            </svg>
+
+            <svg className="profile-icon-actual">
+              <use href={sprite + "#icon-user"}></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div className="navbar-second">
+        <div className="navbar-icons-list">List of Icons</div>
+
+
+        <div>Filters</div>
+
+        <div>Display total before taxes</div>
+      </div>
     </div>
   )
 };
