@@ -56,9 +56,9 @@ const Navbar = () => {
         <div className="navbar-icons-list">List of Icons</div>
 
 
-        <div>Filters</div>
+        <div className="navbar-filters">Filters</div>
 
-        <div>Display total before taxes</div>
+        <div className="navbar-toggle">Display total before taxes</div>
       </div>
     </div>
   )
